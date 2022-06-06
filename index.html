@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" href="icon.jpg">
+    <title>Mundo Rosa</title>
+</head>
+<header>
+
+</header>
+    <h1>Mundo Rosa</h1>
+    <img class="coraçao" src="iconrem.png">
+        <nav>
+            <ul>
+                <li><a href="#">Página Inicial</a> </li>
+                <li><a href="#">Menu</a> </li>
+                <li><a href="#">Contato</a> </li>
+                <li><a href="#">Sobre nós</a> </li>    
+            </ul>
+
+        </nav>
+        <img class="risco" src="fundorosa.jpg">
+
+ <script>
+     function definePainel(){
+         var obj=event.target;
+         var painel=document.getElementById("painel");
+         painel.innerHTML="Modelo: "+ obj.dataset.modelo +" <br><br>";
+         painel.innerHTML+="Tamanho: " + obj.dataset.tamanho;
+     }
+     function rolar(){
+        var obj=event.target.dataset.nome;
+        document.getElementById(obj).scrollIntoView();
+     }
+     function inicia(){
+        document.getElementById("btnc1").addEventListener("click", definePainel);
+        document.getElementById("btnc2").addEventListener("click", definePainel);
+        document.getElementById("btnc3").addEventListener("click", definePainel);
+        document.getElementById("btnc4").addEventListener("click", definePainel);
+        document.getElementById("btnc5").addEventListener("click", definePainel);
+        document.getElementById("btnc6").addEventListener("click", definePainel);
+        document.getElementById("btnc7").addEventListener("click", definePainel);
+        document.getElementById("btnc8").addEventListener("click", definePainel);
+        document.getElementById("btnc9").addEventListener("click", definePainel);
+        document.getElementById("btnc10").addEventListener("click", definePainel);
+        document.getElementById("btnc11").addEventListener("click", definePainel);
+        
+        document.getElementById("btnc1").addEventListener("click", rolar);
+        document.getElementById("btnc2").addEventListener("click", rolar);
+        document.getElementById("btnc3").addEventListener("click", rolar);
+        document.getElementById("btnc4").addEventListener("click", rolar);
+        document.getElementById("btnc5").addEventListener("click", rolar);
+        document.getElementById("btnc6").addEventListener("click", rolar);
+        document.getElementById("btnc7").addEventListener("click", rolar);
+        document.getElementById("btnc8").addEventListener("click", rolar);
+        document.getElementById("btnc9").addEventListener("click", rolar);
+        document.getElementById("btnc10").addEventListener("click", rolar);
+        document.getElementById("btnc11").addEventListener("click", rolar);
+
+        
+     }
+
+
+     window.addEventListener("load", inicia);
+
+
+ </script>       
+<body>
+    
+    <div class="branco">
+        
+    
+        <div id="menu">
+            <h2> Selecione um vestido para ver a descrição</h2>
+            <img  id="btnc1"  data-nome="vest1" data-modelo="Vestido branco com laço" data-tamanho="3 a 12 meses" src="v1.jpg" class="menu_item">
+            <img  id="btnc2"  data-nome="vest2" data-modelo="Vestido branco com laço azul" data-tamanho="3 a 12 meses"src="v2.jpg" class="menu_item">
+            <img  id="btnc3"  data-nome="vest3" data-modelo="Vestido branco com detalhes em azul" data-tamanho="6 meses a 12 meses"src="v3.jpg" class="menu_item">
+            <img  id="btnc4"  data-nome="vest4" data-modelo="Vestido branco com faixa azul" data-tamanho="3 a 12 meses"src="v4.jpg" class="menu_item">
+            <img  id="btnc5"  data-nome="vest5" data-modelo="Vestido azul com bolinhas brancas" data-tamanho="6 meses a 12 meses"src="v5.jpg" class="menu_item">
+            <img  id="btnc6"  data-nome="vest6" data-modelo="Vestido branco com laço e bolinhas vermelhas" data-tamanho="9 meses a 12 meses"src="v6.jpg" class="menu_item">
+            <img  id="btnc7"  data-nome="vest7" data-modelo="Vestido branco com detalhes em rosa" data-tamanho="3 a 12 meses"src="v7.jpg" class="menu_item">
+            <img  id="btnc8"  data-nome="vest8" data-modelo="Vestido branco com detalhes em azul" data-tamanho="6 meses a 12 meses"src="v8.jpg" class="menu_item">
+            <img  id="btnc9"  data-nome="vest9" data-modelo="Vestido azul" data-tamanho="9 meses a 12 meses"src="v9.jpg" class="menu_item">
+            <img  id="btnc10" data-nome="vest10" data-modelo="Vestido cinza com detalhes em preto" data-tamanho="3 a 12 meses"src="v10.jpg" class="menu_item">
+            <img  id="btnc11" data-nome="vest11" data-modelo="vestido rosa com blusa branca" data-tamanho="6 meses a 12 meses"src="v11.jpg" class="menu_item">
+            
+        </div>
+        
+        <div id="painel">
+           <img class="iconbtn" src="icon2.png">
+        </div>
+        <br> 
+        <img id="vest1" src="v1.jpg" class="vestidos">
+        <img id="vest2" src="v2.jpg" class="vestidos">
+        <img id="vest3" src="v3.jpg" class="vestidos">
+        <img id="vest4" src="v4.jpg" class="vestidos">
+        <img id="vest5" src="v5.jpg" class="vestidos">
+        <img id="vest6" src="v6.jpg" class="vestidos">
+        <img id="vest7" src="v7.jpg" class="vestidos">
+        <img id="vest8" src="v8.jpg" class="vestidos">
+        <img id="vest9" src="v9.jpg" class="vestidos">
+        <img id="vest10" src="v10.jpg" class="vestidos">
+        <img id="vest11" src="v11.jpg" class="vestidos">
+        
+   
+
+    </div>
+    
+    
+</body> 
+
+<footer>Mundo Rosa &copy</footer>
+</html>

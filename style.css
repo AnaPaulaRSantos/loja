@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+header{ 
+    background-image: url("fundorosa.jpg");
+    height:40px; 
+      
+}
+h1{
+    font-size: 90px;
+    color: rgb(80, 80, 80);
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    margin-top: 20px;
+   
+}
+h2{
+    font-family: 'Great Vibes', cursive; 
+    font-size: 30px;
+    text-align: center;
+    color:rgb(80, 80, 80); ;
+}
+.coraçao{
+    float: right;
+    margin-right: 680px;
+    margin-top: -150px;
+    width: 150px;
+    height: 100px;
+}
+nav{
+    background-color: rgb(255, 255, 255, 0.7);
+    text-decoration: none;
+    margin-top: -50px;
+}
+
+li{
+    display: inline;
+    margin-right: 100px;
+   
+}
+a{
+    text-decoration: none;
+    color:rgb(200, 90, 169); 
+
+    font-size: 25px;
+}
+a:hover{
+    background-color: rgb(189, 185, 185);
+    color: white;
+    border-radius: 5px;
+    
+}
+
+body{
+    background-color: rgb(251, 211, 218);
+}
+.risco{
+    width: 1890px;
+    height: 20px;
+}
+.branco{
+    
+    background-color: rgb(226, 170, 180);
+    width: 1890;
+    height: auto;
+    
+}
+.vestidos{
+    width: 800px;
+    height: 850px;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+.menu_item{
+    height: 100%;
+    cursor: pointer;
+}
+#menu{
+    padding-left: 30px;
+    border: solid 3px rgb(186, 128, 170); 
+    border-radius: 10px;
+    width: 660px;
+    height: 380px;
+    position: fixed;
+    top: 300px;
+    left: 1150px;
+    background-color: white;
+}
+#btnc1,#btnc2,#btnc3,#btnc4,#btnc5,#btnc6,#btnc7,#btnc8,#btnc9,#btnc10,#btnc11{
+     width: 100px;
+     height: 130px;
+}
+#painel{
+    background-color:rgb(251, 211, 218); 
+    border: 3px solid rgb(186, 128, 170); 
+    border-radius: 10px;
+    margin-top: 400px;
+    margin-left: 710px;
+    width: 450px;
+    height: 150px;
+    float: right;
+    position: fixed;
+    font-size: 25px;
+    padding-top: 40px;
+    padding-left: 10px;
+
+
+}
+.iconbtn{
+    width: 180px;
+    height: 100px;
+    margin-top: -80px;
+    margin-left: 120px;
+}
+footer{
+    color: rgb(97, 95, 97);
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    
+    height: 50px;
+    background-image: url("fundorosa.jpg");    
+}
